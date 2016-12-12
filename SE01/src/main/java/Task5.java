@@ -13,7 +13,7 @@ public class Task5 {
         int[][] arr = new int[size][size];
         for (int y = 0; y < size; y++) {
             for (int x = 0; x < size; x++) {
-                if (x == y) {
+                if ((y == x) || (y == (size - x - 1))) { // Вводим дополнительную проверку, но сокращаем итерации
                     arr[y][x] = 1;
                     arr[y][size - x - 1] = 1;
                     break;
@@ -24,8 +24,8 @@ public class Task5 {
     }
 
     private static void printMatrix(int[][] arr) {
-        for (int[] row: arr) {
-            for (int cell: row) {
+        for (int[] row : arr) {
+            for (int cell : row) {
                 System.out.print(cell + " ");
             }
             System.out.println();
