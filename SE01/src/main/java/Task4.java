@@ -1,5 +1,5 @@
 /**
- * Created by Air on 14/12/2016.
+ * Даны действительные числа a1, a2 … an.  Найти max
  */
 public class Task4 {
 

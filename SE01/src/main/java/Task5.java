@@ -1,5 +1,5 @@
 /**
- * Created by Air on 13/12/2016.
+ * Получить матрицу
  */
 public class Task5 {
 
