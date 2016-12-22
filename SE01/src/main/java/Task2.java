@@ -6,7 +6,7 @@ public class Task2 {
 
     public static void main(String[] args) {
 
-        double eps = 0.009;
+        double eps = 0.009; // задаем какую-нибудь эпсилон
         double result;
         int i = 0;
 

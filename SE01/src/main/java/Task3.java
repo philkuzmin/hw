@@ -7,9 +7,9 @@ public class Task3 {
 
     public static void main(String[] args) {
 
-        double a = 0.1;
-        double b = 2.99;
-        double h = 0.35;
+        double a = 0.1;     // задаем начало отрезка
+        double b = 2.99;    // задаем конец отрезка
+        double h = 0.35;    // задаем шаг
 
         System.out.printf("%-12s%-12s\n", "Argument", "Function");
 

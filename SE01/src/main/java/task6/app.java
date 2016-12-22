@@ -3,6 +3,7 @@ package task6;
 import java.util.Scanner;
 
 /**
+ * Main application class
  * Created by Air on 13/12/2016.
  */
 public class app {
@@ -13,6 +14,10 @@ public class app {
 
     }
 
+    /**
+     * Method starts the console interface of the notepad app
+     * @param notepad notepad instance to work with
+     */
     private static void startApp(Notepad notepad) {
         Scanner sc = new Scanner(System.in);
         while (true) {
