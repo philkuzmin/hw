@@ -6,8 +6,8 @@
       <module name="homework_test" target="1.8" />
       <module name="SE01_main" target="1.8" />
       <module name="SE01_test" target="1.8" />
-      <module name="SE02_main" target="1.5" />
-      <module name="SE02_test" target="1.5" />
+      <module name="SE02_main" target="1.8" />
+      <module name="SE02_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
