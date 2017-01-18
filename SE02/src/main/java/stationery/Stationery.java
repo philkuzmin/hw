@@ -3,7 +3,7 @@ package stationery;
 /**
  * Created by Air on 14/01/2017.
  */
-public abstract class Stationery{
+public abstract class Stationery {
 
     protected String title;
     protected double price;
@@ -31,6 +31,12 @@ public abstract class Stationery{
 
     @Override
     public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (this == obj) {
+            return true;
+        }
         if (obj instanceof Stationery) {
             return ((Stationery) obj).getTitle().equals(title);
         }
