@@ -1,4 +1,5 @@
 rootProject.name = 'homework'
 include 'SE01'
 include 'SE02'
+include 'SE03'
 
