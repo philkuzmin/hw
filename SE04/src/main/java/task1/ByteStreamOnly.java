@@ -13,7 +13,7 @@ public class ByteStreamOnly {
 
     private File input;
     private File output;
-    private String[] keywords =
+    public static String[] keywords =
 
             {
                     "abstract", "continue", "for", "new", "switch",
@@ -85,7 +85,7 @@ public class ByteStreamOnly {
         }
     }
 
-    private String parse(String text) {
+    public static String parse(String text) {
         StringBuilder out = new StringBuilder();
         Matcher matcher = null;
         Pattern pattern = null;
@@ -95,7 +95,6 @@ public class ByteStreamOnly {
             if (matcher.find()) {
                 int count;
                 for (count = 1; matcher.find(); count++) {
-                    matcher.find();
                 }
                 out.append(keyword).append(": ").append(count).append("\n");
             }
