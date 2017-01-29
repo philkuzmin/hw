@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE03/SE03.iml" filepath="$PROJECT_DIR$/.idea/modules/SE03/SE03.iml" group="SE03" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE03/SE03_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SE03/SE03_main.iml" group="SE03" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE03/SE03_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SE03/SE03_test.iml" group="SE03" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE04/SE04.iml" filepath="$PROJECT_DIR$/.idea/modules/SE04/SE04.iml" group="SE04" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE04/SE04_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SE04/SE04_main.iml" group="SE04" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SE04/SE04_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SE04/SE04_test.iml" group="SE04" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework.iml" filepath="$PROJECT_DIR$/.idea/modules/homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_main.iml" group="homework" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_test.iml" group="homework" />
