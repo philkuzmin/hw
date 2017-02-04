@@ -12,6 +12,8 @@
       <module name="SE03_test" target="1.8" />
       <module name="SE04_main" target="1.8" />
       <module name="SE04_test" target="1.8" />
+      <module name="SE05_main" target="1.8" />
+      <module name="SE05_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

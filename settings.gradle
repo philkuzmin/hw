@@ -1,6 +1,7 @@
 rootProject.name = 'homework'
-include 'SE01'
-include 'SE02'
-include 'SE03'
-include 'SE04'
+include 'SE01',
+        'SE02',
+        'SE03',
+        'SE04',
+        'SE05'
 
