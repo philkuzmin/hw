@@ -21,9 +21,9 @@ import java.util.Queue;
  */
 public class XMLParser {
 
-    private File file;
-    private List<Account> accounts;
-    private Queue<Element> elements;
+    protected File file;
+    protected List<Account> accounts;
+    protected Queue<Element> elements;
 
     public XMLParser(File file, List<Account> accounts) {
         this.file = file;
@@ -31,9 +31,13 @@ public class XMLParser {
         elements = new LinkedList<>();
     }
 
-    public void process() throws IOException, SAXException {
-        Thread processor = new Thread( new Processor(elements, accounts));
+    protected void startProcessor() {
+        Thread processor = new Thread(new Processor(elements, accounts));
         processor.start();
+    }
+
+    public void process() throws IOException, SAXException {
+        startProcessor();
         DOMParser parser = new DOMParser();
         try (FileInputStream stream = new FileInputStream(file)) {
             parser.parse(new InputSource(stream));
@@ -43,18 +47,8 @@ public class XMLParser {
             for (int i = 0; i < nodeList.getLength(); i++) {
                 elements.add((Element) nodeList.item(i));
                 System.out.println("New element added...");
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
             }
         }
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        processor.interrupt();
+
     }
 }
