@@ -1,4 +1,5 @@
 import org.junit.Test;
+import task1.Databaser;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;

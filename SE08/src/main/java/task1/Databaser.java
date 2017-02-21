@@ -1,34 +1,41 @@
+package task1;
+
 import java.sql.*;
 
 /**
- * Created by Air on 13/02/2017.
+ * Создайте таблицу в БД и с помощью JDBC выполните следующие действия
+ * извлеките информацию из таблицы с помощью подготовленного запроса;
+ * обновите несколько записей в таблице;
+ * выберите конкретную запись в таблице;
+ * вставьте новую запись в таблицу;
+ * удалите таблицу.
  */
 public class Databaser implements AutoCloseable {
 
     private Connection connection = null;
 
-    private String createTable = "CREATE TABLE Users (\n" +
+    private final String createTable = "CREATE TABLE Users (\n" +
             "  id INT PRIMARY KEY AUTO_INCREMENT,\n" +
             "  first_name VARCHAR(32),\n" +
             "  last_name VARCHAR(32),\n" +
             "  age INT\n" +
             ");";
 
-    private String insertStatement =
+    private final String insertStatement =
             "INSERT INTO Users (first_name, last_name, age) VALUES (?, ?, ?)";
 
-    private String updateStatement =
+    private final String updateStatement =
             "UPDATE Users SET first_name = ?, last_name = ?, age = ? WHERE id = ?";
 
-    private String renameUsersStatement =
+    private final String renameUsersStatement =
             "UPDATE Users SET last_name = ? WHERE first_name = ?";
 
-    private String selectByIdStatement =
+    private final String selectByIdStatement =
             "SELECT first_name, last_name, age FROM Users WHERE id = ?";
 
-    private String selectAllStatement = "SELECT * FROM Users";
+    private final String selectAllStatement = "SELECT * FROM Users";
 
-    private String dropTableStatement = "DROP TABLE Users";
+    private final String dropTableStatement = "DROP TABLE Users";
 
     public void getConnection() {
         try {

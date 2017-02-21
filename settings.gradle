@@ -7,4 +7,5 @@ include 'SE01',
         'SE06',
         'SE07',
         'SE08'
+include 'web'
 

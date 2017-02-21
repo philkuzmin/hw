@@ -4,12 +4,11 @@
     <option name="dataSources">
       <list>
         <State>
-          <option name="id" value="71aea86a-41ab-4a92-aad4-e01a8053bfe7" />
+          <option name="id" value="57e1a55a-fe3b-4f85-8cc7-5ac6e6d7449a" />
           <option name="name" value="1" />
-          <option name="parent" value="c688879f-9225-479e-8103-494468d647cd" />
           <option name="urls">
             <array>
-              <option value="file://$PROJECT_DIR$/SE08/src/test/resources/sql/1.sql" />
+              <option value="file://$PROJECT_DIR$/SE08/src/main/resources/1.sql" />
             </array>
           </option>
         </State>

@@ -29,6 +29,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework.iml" filepath="$PROJECT_DIR$/.idea/modules/homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_main.iml" group="homework" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_test.iml" group="homework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
     </modules>
   </component>
 </project>

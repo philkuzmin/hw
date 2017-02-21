@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/SE08/src/main/java/Databaser.java" dialect="H2" />
-    <file url="file://$PROJECT_DIR$/SE08/src/test/resources/sql/1.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SE08/src/main/java/task1/Databaser.java" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SE08/src/main/java/task2/dao/H2AuthorDao.java" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SE08/src/main/java/task2/dao/H2BookDao.java" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SE08/src/main/resources/1.sql" dialect="H2" />
   </component>
 </project>
