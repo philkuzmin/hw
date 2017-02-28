@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epam.com/"
+        xmlns:tns="http://www.epam.com/"
+        elementFormDefault="qualified">
+
+    <element name="Library" type="tns:Library"/>
+
+    <complexType name="Library">
+        <sequence>
+            <element name="Book" type="tns:Book" minOccurs="1" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="Book">
+        <sequence>
+            <element name="Author" type="string"/>
+            <element name="Title" type="string"/>
+            <element name="Year" type="tns:Year"/>
+            <element name="Pages" type="tns:Pages"/>
+            <element name="Type" type="tns:Type"/>
+        </sequence>
+        <attribute name="id" type="ID" use="required"/>
+    </complexType>
+
+    <simpleType name="Year">
+        <restriction base="positiveInteger">
+            <pattern value="\d{4}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Pages">
+        <restriction base="positiveInteger">
+            <minInclusive value="5"/>
+            <maxInclusive value="10000"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Type">
+        <restriction base="string">
+            <enumeration value="book"/>
+            <enumeration value="magazine"/>
+        </restriction>
+    </simpleType>
+
+</schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library xmlns="http://www.epam.com/">
+    <Book id="a-1">
+        <Author>Leo Tolstoy</Author>
+        <Title>War and Peace</Title>
+        <Year>1888</Year>
+        <Pages>9000</Pages>
+        <Type>book</Type>
+    </Book>
+    <Book id="a-2">
+        <Author>Stephen King</Author>
+        <Title>It</Title>
+        <Year>1988</Year>
+        <Pages>5000</Pages>
+        <Type>book</Type>
+    </Book>
+    <Book id="a-3">
+        <Author>Stephen King</Author>
+        <Title>It</Title>
+        <Year>1988</Year>
+        <Pages>5000</Pages>
+        <Type>magazine</Type>
+    </Book>
+</Library>

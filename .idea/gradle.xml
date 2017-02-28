@@ -4,7 +4,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
-        <option name="distributionType" value="WRAPPED" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$USER_HOME$/Applications/gradle-3.2.1" />
         <option name="gradleJvm" value="1.8" />
@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/SE06" />
             <option value="$PROJECT_DIR$/SE07" />
             <option value="$PROJECT_DIR$/SE08" />
+            <option value="$PROJECT_DIR$/SE13" />
             <option value="$PROJECT_DIR$/web" />
           </set>
         </option>
